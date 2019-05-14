@@ -9,25 +9,19 @@
   },
   "files": [
     "bin",
-    "dist",
-    "src"
+    "lib",
+    "index.js"
   ],
   "scripts": {
-    "build": "babel src -d dist",
-    "prepare": "npm run build",
     "format": "prettier --write \"**/*.{js,md}\"",
     "lint": "eslint --fix \"**/*.js\"",
     "lint-staged": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.4.4"
+    "common-bin": "^2.8.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/plugin-transform-runtime": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.2.0",

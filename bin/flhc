@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-console */
+const Command = require('..')
 
-const homedir = require('../dist').default
-
-console.log(`Current user home: ${homedir()}\n`)
+new Command().start()
