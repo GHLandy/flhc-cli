@@ -8,7 +8,7 @@ class FlhcCli extends CommonBin {
 
     this.usage = 'Usage: flhc <command> [options]'
 
-    this.load(join(__dirname, 'command'))
+    this.load(join(__dirname, 'lib/cmd'))
   }
 }
 

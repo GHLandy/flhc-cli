@@ -1,6 +1,6 @@
 {
   "name": "flhc-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> flhc-cli",
   "author": "GHLandy <ghlandy@ghlandy.com>",
   "license": "MIT",
@@ -19,6 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
     "common-bin": "^2.8.1"
   },
   "devDependencies": {
