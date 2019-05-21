@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "common-bin": "^2.8.1"
+    "common-bin": "^2.8.1",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
