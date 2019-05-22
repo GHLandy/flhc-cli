@@ -8,9 +8,6 @@
 
 ```bash
 npm i -g flhc-cli@git+https://git@github.com/GHLandy/flhc-cli.git
-
-# Or install the dev branch
-npm i -g flhc-cli@git+https://git@github.com/GHLandy/flhc-cli.git#dev
 ```
 
 ## Usage
@@ -18,6 +15,9 @@ npm i -g flhc-cli@git+https://git@github.com/GHLandy/flhc-cli.git#dev
 ```bash
 # For help details
 flhc
+
+# Sync atom editor's plugins
+flhc atom
 
 # Sync vimrc to ~/.vimrc
 flhc vim
