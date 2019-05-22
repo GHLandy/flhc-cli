@@ -2,6 +2,10 @@
   "name": "flhc-cli",
   "version": "0.1.0",
   "description": "> flhc-cli",
+  "keywords": [
+    "flhc",
+    "command-line"
+  ],
   "author": "GHLandy <ghlandy@ghlandy.com>",
   "license": "MIT",
   "bin": {
