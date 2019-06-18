@@ -8,6 +8,13 @@
   ],
   "author": "GHLandy <ghlandy@ghlandy.com>",
   "license": "MIT",
+  "homepage": "https://github.com/GHLandy/flhc-cli.git",
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/GHLandy/flhc-cli.git"
+    }
+  ],
   "bin": {
     "flhc": "bin/flhc"
   },

@@ -5,13 +5,13 @@
 [npm-image]: https://img.shields.io/npm/v/flhc-cli.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/flhc-cli
 
-> flhc-cli：
->
-> A command, `flhc`, help with personal work.
+A command line tool help for personal backup.
 
 ## Install
 
 ```bash
+npm i -g flhc-cli
+# Or
 npm i -g flhc-cli@git+https://git@github.com/GHLandy/flhc-cli.git
 ```
 
