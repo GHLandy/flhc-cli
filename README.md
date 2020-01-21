@@ -1,4 +1,6 @@
-# flhc-cli
+# flhc-cli `Deprecated`
+
+> I now manipulate my conf by bash (.sh), this may not work properly. I don't use it any more.
 
 [![NPM version][npm-image]][npm-url]
 
